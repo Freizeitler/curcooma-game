@@ -8,7 +8,6 @@
 
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import Logo from '../../img/logo.png';
 import PageHeader from './organisms/PageHeader/PageHeader.react';
 import PageMain from './organisms/PageMain/PageMain.react';
 import PageFooter from './organisms/PageFooter/PageFooter.react';
@@ -18,7 +17,7 @@ class App extends Component {
     return (   
     <div className="page-wrapper">     
       <PageHeader />
-      <PageMain />
+      <PageMain content={this.props.children} />
       <PageFooter />
     </div>
     );

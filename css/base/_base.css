@@ -36,3 +36,11 @@ body.js-open-sans-loaded {
 #app, .page-wrapper {
 	height: 100%;
 }
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-content: stretch;
+  align-items: stretch;
+}

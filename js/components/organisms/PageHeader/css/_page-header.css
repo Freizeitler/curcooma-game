@@ -1,6 +1,9 @@
 /*This file contains all styles related to the header of the site/application.*/
 .header {
 	width: 100%;
-	height: 100px;
+	height: $height-header;
 	background-color: $color-lima;
+  order: 0;
+  flex: 0 1 auto;
+  align-self: auto;
 }
