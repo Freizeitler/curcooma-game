@@ -44,9 +44,9 @@ openSansObserver.check().then(() => {
 });
 
 // Import the pages
-import HomePage from './components/pages/HomePage.react';
-import ReadmePage from './components/pages/ReadmePage.react';
-import NotFoundPage from './components/pages/NotFound.react';
+import HomePage from './components/pages/home/HomePage.react';
+import ReadmePage from './components/pages/readme/ReadmePage.react';
+import NotFoundPage from './components/pages/404/NotFound.react';
 import App from './components/App.react';
 
 // Import the CSS file, which HtmlWebpackPlugin transfers to the build folder

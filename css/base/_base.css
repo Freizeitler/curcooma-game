@@ -21,6 +21,8 @@ html,
 body {
 	margin: 0;
 	padding: 0;
+	height: 100%;
+	overflow: hidden;
 }
 
 body {
@@ -29,4 +31,8 @@ body {
 
 body.js-open-sans-loaded {
 	font-family: 'Open Sans', Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+#app, .page-wrapper {
+	height: 100%;
 }

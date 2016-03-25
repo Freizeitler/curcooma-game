@@ -1,13 +1,16 @@
 /*This file contains all application-wide CSS variables.*/
 
 $text-font-stack: 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
-$code-font-stack: 'Courier New', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Monaco', monospace;
 
-$text-color: #222;
-$brand-color: #087B98;
-$light-brand-color: #3C93A9;
-$light-grey: #EDEDED;
-$mid-grey: #999;
-$dark-grey: #444;
+/* Colors */
+$color-lima: rgba(83, 195, 19, 1);
+$color-apple: rgba(89, 144, 58, 1);
+$color-curcooma: rgba(246, 242, 0, 1);
+$color-electric-violet: rgba(94, 62, 247, 1);
+$color-dark-blue: rgba(11, 30, 209 ,1);
 
-$max-width: 968px;
+$color-grey-light: rgba(200,200,200,1);
+
+/* Heights */
+$height-footer: 100px;
+

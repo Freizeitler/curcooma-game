@@ -1,0 +1,9 @@
+/*This file contains all styles related to the footer of the site/application.*/
+.footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: $height-footer;
+	background-color: $color-grey-light;
+}
