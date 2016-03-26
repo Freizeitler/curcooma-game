@@ -13,7 +13,7 @@ class HomePage extends Component {
     const dispatch = this.props.dispatch;
     const { projectName, ownerName } = this.props.data;
     return (
-      <div>
+      <section>
         <h1>Curcooma!</h1>
         <h2>This is the demo for the <span className="home__text--red">{ projectName }</span> by <a href={'https://twitter.com/' + ownerName} >@{ ownerName }</a></h2>
         <label className="home__label">Change to your project name:
@@ -23,7 +23,7 @@ class HomePage extends Component {
           <input className="home__input" type="text" onChange={(evt) => { dispatch(asyncChangeOwnerName(evt.target.value)); }} defaultValue="mxstbr" value={ownerName} />
         </label>
         <Link className="btn" to="/readme">Setup</Link>
-      </div>
+      </section>
     );
   }
 }

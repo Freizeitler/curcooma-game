@@ -16,6 +16,7 @@
 
 /* organisms */
 @import '../js/components/organisms/PageHeader/css/*.css';
+@import '../js/components/organisms/PageNavi/css/*.css';
 @import '../js/components/organisms/PageMain/css/*.css';
 @import '../js/components/organisms/PageFooter/css/*.css';
 /* pages */

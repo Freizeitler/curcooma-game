@@ -43,12 +43,6 @@ openSansObserver.check().then(() => {
   document.body.classList.remove('js-open-sans-loaded');
 });
 
-// Import the pages
-import HomePage from './components/pages/home/HomePage.react';
-import ReadmePage from './components/pages/readme/ReadmePage.react';
-import NotFoundPage from './components/pages/404/NotFound.react';
-import App from './components/App.react';
-
 // Import the CSS file, which HtmlWebpackPlugin transfers to the build folder
 import '../css/main.css';
 
@@ -66,6 +60,12 @@ if (module.hot) {
   });
 }
 
+// Import the pages
+import HomePage from './components/pages/HomePage/HomePage.react';
+import ReadmePage from './components/pages/InfoPage/InfoPage.react';
+import NotFoundPage from './components/pages/NotFoundPage/NotFoundPage.react';
+import App from './components/App.react';
+
 // Mostly boilerplate, except for the Routes. These are the pages you can go to,
 // which are all wrapped in the App component, which contains the navigation etc
 ReactDOM.render(
@@ -73,7 +73,7 @@ ReactDOM.render(
     <Router history={createHistory()}>
       <Route component={App}>
         <Route path="/" component={HomePage} />
-        <Route path="/readme" component={ReadmePage} />
+        <Route path="/about" component={InfoPage} />
         <Route path="*" component={NotFoundPage} />
       </Route>
     </Router>
