@@ -10,7 +10,7 @@ export default class PageLogo extends Component {
   render() {
     return (
       <figure className="page-logo">
-      	<PageImg src="http://placehold.it/350x150" width="100" height="auto" alt="Curcooma! Logo" />
+      	<PageImg src="./img/logo.svg" width="220" height="auto" alt="Curcooma! Logo" />
       </figure>
     );
   }

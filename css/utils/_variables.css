@@ -17,8 +17,19 @@ $color-curcooma-800: #F9A825;
 $color-grey: #9E9E9E;
 $color-grey-900: #212121;
 
+/* Text lighten / darken */
+$dark-text-primary: rgba(0,0,0,0.87);
+$dark-text-secondary: rgba(0,0,0,0.54);
+$light-text-primary: rgba(255,255,255,0.90);
+$light-text-secondary: rgba(255,255,255,0.70);
+
 /* Heights */
 $height-footer: 40px;
 $height-header: 40px;
 
+/* Spacings */
+$gutter: 10px;
+
+/* Drop shadows */
+$global-dropshadow: 0 3px 6px rgba(0,0,0,0.3);
 

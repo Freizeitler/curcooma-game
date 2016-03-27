@@ -23,15 +23,16 @@ body {
 	padding: 0;
 	height: 100%;
 	overflow: hidden;
+  background-color: #000;
 }
 
 body {
 	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-  color: $color-grey-900;
+  color: $light-text-primary;
 }
 
 body.js-open-sans-loaded {
-	font-family: 'Open Sans', Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-family: 'Montserrat', Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
 a {
@@ -48,4 +49,14 @@ a {
   justify-content: space-between;
   align-content: stretch;
   align-items: stretch;
+}
+.main-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.main-content-grid {
+  padding: calc($gutter*2);
 }

@@ -2,7 +2,7 @@
 .navi {
 	position: relative;
 	width: 100%;
-	background-color: $color-curcooma-700;
+	background-color: $color-curcooma-800;
 	overflow-x: hidden;
 	overflow-y: auto;
 	order: 0;

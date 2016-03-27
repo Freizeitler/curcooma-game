@@ -1,3 +1,6 @@
 .page-logo {
-	width: 100px;
+	width: 130px;
+	margin: 0;
+	margin-left: calc($gutter*2);
+	margin-top: -5px;
 }
