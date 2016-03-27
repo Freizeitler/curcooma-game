@@ -24,6 +24,9 @@ body {
 	height: 100%;
 	overflow: hidden;
   background-color: #000;
+  border: 2px solid #000;
+  border-top: 1px solid #000;
+  border-radius: $border-radius-global;
 }
 
 body {
@@ -37,6 +40,13 @@ body.js-open-sans-loaded {
 
 a {
   text-decoration: none;
+}
+a, h1, h2, h3, h4, h5, h6 {
+  color: $color-curcooma-200;
+  font-weight: normal;
+}
+.dark-font {
+  color: #000;
 }
 
 #app, .page-wrapper {

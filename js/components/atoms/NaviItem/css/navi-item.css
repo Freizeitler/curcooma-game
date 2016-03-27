@@ -8,6 +8,6 @@
 }
 
 .navi-item a {
-	color: $light-text-primary;
-	font-size: 1.2em;
+	color: $dark-text-primary;
+	font-size: 1em;
 }
