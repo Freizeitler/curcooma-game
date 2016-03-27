@@ -2,11 +2,11 @@
 .navi {
 	position: relative;
 	width: 100%;
-	height: 160px;
-	background-color: $color-curcooma;
+	background-color: $color-curcooma-700;
 	overflow-x: hidden;
 	overflow-y: auto;
 	order: 0;
   flex: 0 1 auto;
   align-self: stretch;
+  overflow: hidden;
 }

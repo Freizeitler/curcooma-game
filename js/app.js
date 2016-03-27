@@ -62,8 +62,13 @@ if (module.hot) {
 
 // Import the pages
 import HomePage from './components/pages/HomePage/HomePage.react';
-import ReadmePage from './components/pages/InfoPage/InfoPage.react';
+import InfoPage from './components/pages/InfoPage/InfoPage.react';
 import NotFoundPage from './components/pages/NotFoundPage/NotFoundPage.react';
+import DashboardPage from './components/pages/DashboardPage/DashboardPage.react';
+import MarketPage from './components/pages/MarketPage/MarketPage.react';
+import StaffingPage from './components/pages/StaffingPage/StaffingPage.react';
+import RestaurantPage from './components/pages/RestaurantPage/RestaurantPage.react';
+import PublicityPage from './components/pages/PublicityPage/PublicityPage.react';
 import App from './components/App.react';
 
 // Mostly boilerplate, except for the Routes. These are the pages you can go to,
@@ -73,7 +78,12 @@ ReactDOM.render(
     <Router history={createHistory()}>
       <Route component={App}>
         <Route path="/" component={HomePage} />
-        <Route path="/about" component={InfoPage} />
+        <Route path="/info" component={InfoPage} />
+        <Route path="/restaurant" component={RestaurantPage} />
+        <Route path="/staffing" component={StaffingPage} />
+        <Route path="/market" component={MarketPage} />
+        <Route path="/publicity" component={PublicityPage} />
+        <Route path="/dashboard" component={DashboardPage} />
         <Route path="*" component={NotFoundPage} />
       </Route>
     </Router>

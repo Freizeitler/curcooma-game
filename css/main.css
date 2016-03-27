@@ -12,12 +12,15 @@
 /* 4. Components */
 /* atoms */
 @import '../js/components/atoms/buttons/css/*.css';
+@import '../js/components/atoms/NaviItem/css/*.css';
 /* molecules */
-
+@import '../js/components/molecules/PageLogo/css/*.css';
+@import '../js/components/molecules/PageNaviList/css/*.css';
 /* organisms */
 @import '../js/components/organisms/PageHeader/css/*.css';
 @import '../js/components/organisms/PageNavi/css/*.css';
 @import '../js/components/organisms/PageMain/css/*.css';
+@import '../js/components/organisms/PageControls/css/*.css';
 @import '../js/components/organisms/PageFooter/css/*.css';
 /* pages */
 @import '../js/components/pages/home/css/*.css';

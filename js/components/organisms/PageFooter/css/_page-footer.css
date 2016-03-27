@@ -2,7 +2,8 @@
 .footer {
 	width: 100%;
 	height: $height-footer;
-	background-color: $color-grey-light;   
-  order: 0;  flex: 0 1 auto;
+	background-color: $color-grey-900;   
+  order: 0;  
+  flex: 0 1 auto;
   align-self: auto;
 }

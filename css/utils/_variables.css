@@ -3,16 +3,22 @@
 $text-font-stack: 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
 
 /* Colors */
-$color-lima: rgba(83, 195, 19, 1);
-$color-apple: rgba(89, 144, 58, 1);
-$color-curcooma: rgba(246, 242, 0, 1);
-$color-electric-violet: rgba(94, 62, 247, 1);
-$color-dark-blue: rgba(11, 30, 209 ,1);
+$color-light-green: #8BC34A;
+$color-green: #4CAF50;
+$color-blue: #2196F3;
+$color-red: #F44336;
 
-$color-grey-light: rgba(200,200,200,1);
+$color-curcooma: #FFEB3B;
+$color-curcooma-50: #FFFDE7;
+$color-curcooma-200: #FFF59D;
+$color-curcooma-700: #FBC02D;
+$color-curcooma-800: #F9A825;
+
+$color-grey: #9E9E9E;
+$color-grey-900: #212121;
 
 /* Heights */
-$height-footer: 100px;
+$height-footer: 40px;
 $height-header: 40px;
 
 

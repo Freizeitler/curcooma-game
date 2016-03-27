@@ -1,0 +1,10 @@
+/*This file contains all styles related to the main of the site/application.*/
+.controls {
+	position: relative;
+	width: 100%;
+  order: 0;  
+  flex: 0 1 auto;
+  align-self: auto;
+  height: 160px;
+  background-color: $color-light-green;
+}

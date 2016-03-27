@@ -27,10 +27,15 @@ body {
 
 body {
 	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  color: $color-grey-900;
 }
 
 body.js-open-sans-loaded {
 	font-family: 'Open Sans', Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
 }
 
 #app, .page-wrapper {

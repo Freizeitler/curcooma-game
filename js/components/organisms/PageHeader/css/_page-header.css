@@ -2,7 +2,7 @@
 .header {
 	width: 100%;
 	height: $height-header;
-	background-color: $color-lima;
+	background-color: $color-curcooma;
   order: 0;
   flex: 0 1 auto;
   align-self: auto;

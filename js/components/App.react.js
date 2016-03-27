@@ -11,6 +11,7 @@ import { connect } from 'react-redux';
 import PageHeader from './organisms/PageHeader/PageHeader.react';
 import PageNavi from './organisms/PageNavi/PageNavi.react';
 import PageMain from './organisms/PageMain/PageMain.react';
+import PageControls from './organisms/PageControls/PageControls.react';
 import PageFooter from './organisms/PageFooter/PageFooter.react';
 
 class App extends Component {
@@ -20,6 +21,7 @@ class App extends Component {
       <PageHeader />
       <PageNavi />
       <PageMain content={this.props.children} />
+      <PageControls />
       <PageFooter />
     </div>
     );
