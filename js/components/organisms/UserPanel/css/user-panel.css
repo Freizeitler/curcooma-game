@@ -1,0 +1,6 @@
+.user-panel {
+	position: absolute;
+	top: $gutter;
+	right: calc($gutter*2);
+	z-index: 10;
+}

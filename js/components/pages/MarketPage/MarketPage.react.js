@@ -7,14 +7,20 @@ import { asyncChangeProjectName, asyncChangeOwnerName } from '../../../actions/A
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { Link } from 'react-router';
+import PageControls from '../../organisms/PageControls/PageControls.react';
 
 class MarketPage extends Component {
   render() {
     const dispatch = this.props.dispatch;
     const { projectName, ownerName } = this.props.data;
     return (
-      <section>
-        <h1>Curcooma! - Großmarkt</h1>
+     <section className="main-content">
+        <div className="main-content-grid">
+
+          <h1>Curcooma! - Grßmarkt</h1>
+          
+          <PageControls colorClass="color-purple" />
+        </div>
       </section>
     );
   }

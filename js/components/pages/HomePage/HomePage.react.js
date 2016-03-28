@@ -28,7 +28,7 @@ class HomePage extends Component {
           <Link className="btn" to="/readme">Setup</Link>
 
         </div>
-        <PageControls />
+        <PageControls color="#8BC34A" />
       </section>
     );
   }

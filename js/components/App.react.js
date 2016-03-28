@@ -10,6 +10,7 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import PageHeader from './organisms/PageHeader/PageHeader.react';
 import PageNavi from './organisms/PageNavi/PageNavi.react';
+import UserPanel from './organisms/UserPanel/UserPanel.react';
 import PageMain from './organisms/PageMain/PageMain.react';
 import PageFooter from './organisms/PageFooter/PageFooter.react';
 
@@ -19,6 +20,7 @@ class App extends Component {
     <div className="page-wrapper">     
       <PageHeader />
       <PageNavi />
+      <UserPanel />
       <PageMain content={this.props.children} />
       <PageFooter />
     </div>
