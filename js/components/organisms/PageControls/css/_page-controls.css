@@ -8,16 +8,16 @@
   color: #000;
   border-radius: 0 0 $border-radius-global $border-radius-global;
 }
-.controls.color-blue {
-	background-color: $color-blue;
+.controls.color-blue-400 {
+	background-color: $color-blue-400;
 }
-.controls.color-pink {
-	background-color: $color-pink;
+.controls.color-pink-400 {
+	background-color: $color-pink-400;
 }
-.controls.color-purple {
-	background-color: $color-purple;
+.controls.color-purple-400 {
+	background-color: $color-purple-400;
 }
-.controls.color-teal {
-	background-color: $color-teal;
+.controls.color-teal-400 {
+	background-color: $color-teal-400;
 }
 

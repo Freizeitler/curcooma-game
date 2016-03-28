@@ -19,7 +19,7 @@ class RestaurantPage extends Component {
 
           <h1>Curcooma! - Restaurant verwalten</h1>
           
-          <PageControls colorClass="color-teal" />
+          <PageControls colorClass="color-teal-400" />
         </div>
       </section>
     );

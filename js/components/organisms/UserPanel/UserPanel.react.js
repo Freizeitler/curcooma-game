@@ -1,6 +1,6 @@
 /*
  * User Panel: Organism
- *
+ * TODO: put dl into organism
  */
 
 import React, { Component } from 'react';
@@ -11,6 +11,10 @@ export default class UserPanel extends Component {
   	var combinedClasses = this.props.colorClass + ' controls';
     return (
     	<aside className="user-panel">
+    		<dl className="user-meta">
+    			<dt>Name</dt><dd>Mustermann</dd>
+    			<dt>Level</dt><dd>1</dd>
+    		</dl>
       	<UserInfo />
       </aside>
     );

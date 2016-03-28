@@ -5,12 +5,14 @@ $text-font-stack: 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial'
 /* Colors */
 $color-light-green: #8BC34A;
 $color-green: #4CAF50;
-$color-blue: #2196F3;
+$color-blue-400: #42A5F5;
 $color-red: #F44336;
-$color-purple: #9C27B0;
+$color-purple-400: #AB47BC;
 $color-pink: #E91E63;
+$color-pink-400: #EC407A;
 $color-pink-900: #880E4F;
-$color-teal: #009688;
+$color-teal-400: #26A69A;
+$color-light-blue-50: #E1F5FE;
 
 $color-curcooma: #FFEB3B;
 $color-curcooma-50: #FFFDE7;
@@ -38,5 +40,5 @@ $gutter: 10px;
 $global-dropshadow: 0 3px 6px rgba(0,0,0,0.3);
 
 /* Border-radius */
-$border-radius-global: 5px;
+$border-radius-global: 3px;
 

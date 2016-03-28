@@ -19,7 +19,7 @@ class StaffingPage extends Component {
 
           <h1>Curcooma! - Personal verwalten</h1>
           
-          <PageControls colorClass="color-blue" />
+          <PageControls colorClass="color-blue-400" />
         </div>
       </section>
     );

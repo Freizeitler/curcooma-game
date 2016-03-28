@@ -19,7 +19,7 @@ class PublicityPage extends Component {
 
           <h1>Curcooma! - werbung & Marketing</h1>
           
-          <PageControls colorClass="color-pink" />
+          <PageControls colorClass="color-pink-400" />
         </div>
       </section>
     );

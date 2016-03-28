@@ -19,7 +19,7 @@ class MarketPage extends Component {
 
           <h1>Curcooma! - Grßmarkt</h1>
           
-          <PageControls colorClass="color-purple" />
+          <PageControls colorClass="color-purple-400" />
         </div>
       </section>
     );
