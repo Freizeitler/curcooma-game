@@ -1,5 +1,5 @@
 /*
- * PageLogo: Molecule
+ * UserInfo: Molecule
  *
  */
 
@@ -10,7 +10,7 @@ export default class UserInfo extends Component {
   render() {
     return (
 			<figure className="user-info">
-    		<InlineSvg src="../../../img/people/Avatars set-017.svg" alt="Avatar" height="80" width="80" />
+    		<InlineSvg src="../../../img/people/Avatars set-053.svg" alt="Avatar" height="80" width="80" />
 			</figure>
     );
   }

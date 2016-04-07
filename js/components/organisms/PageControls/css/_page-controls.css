@@ -1,23 +1,33 @@
 /*This file contains all styles related to the main of the site/application.*/
-.controls {
+.page-controls {
 	position: absolute;
 	bottom: 0;
 	left: 0;
 	width: 100%;
-  height: 160px;
+  height: 100px;
   color: #000;
   border-radius: 0 0 $border-radius-global $border-radius-global;
+  padding: calc($gutter*2);
+  border-top: transparent solid $gutter;
 }
-.controls.color-blue-400 {
+.page-controls h2 {
+	margin: 0;
+	font-size: 1em;
+}
+.page-controls.color-blue-400 {
 	background-color: $color-blue-400;
+  border-color: $color-blue;
 }
-.controls.color-pink-400 {
+.page-controls.color-pink-400 {
 	background-color: $color-pink-400;
+  border-color: $color-pink;
 }
-.controls.color-purple-400 {
+.page-controls.color-purple-400 {
 	background-color: $color-purple-400;
+  border-color: $color-purple;
 }
-.controls.color-teal-400 {
+.page-controls.color-teal-400 {
 	background-color: $color-teal-400;
+  border-color: $color-teal;
 }
 

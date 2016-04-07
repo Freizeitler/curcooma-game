@@ -17,9 +17,9 @@ class MarketPage extends Component {
      <section className="main-content">
         <div className="main-content-grid">
 
-          <h1>Curcooma! - Grßmarkt</h1>
+          <h1>Curcooma! - Großmarkt</h1>
           
-          <PageControls colorClass="color-purple-400" />
+          <PageControls colorClass="color-purple-400" headline="Hey Mustermann, ich kann fast alles besorgen. Was brauchst Du heute?" />
         </div>
       </section>
     );

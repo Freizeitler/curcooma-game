@@ -12,7 +12,7 @@ export default class UserPanel extends Component {
     return (
     	<aside className="user-panel">
     		<dl className="user-meta">
-    			<dt>Name</dt><dd>Mustermann</dd>
+    			<dt>Spieler</dt><dd>Mustermann</dd>
     			<dt>Level</dt><dd>1</dd>
     		</dl>
       	<UserInfo />

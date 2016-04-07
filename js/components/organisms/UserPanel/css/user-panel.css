@@ -11,6 +11,7 @@
 .user-meta {
 	margin: 0;
 	text-align: right;
+	color: $dark-text-primary;
 }
 .user-meta dd {
 	margin: 0;
