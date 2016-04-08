@@ -1,4 +1,4 @@
-![Curcooma Logo](https://raw.github.com/Freizeitler/curcooma-game/blob/master/img/logo.svg)
+![Curcooma Logo](https://raw.githubusercontent.com/Freizeitler/curcooma-game/development/img/logo.svg)
 
 # Curcooma! 
 
