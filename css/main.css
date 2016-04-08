@@ -1,5 +1,3 @@
-/* Do not write any CSS in here, add it to the appropriate module or make a new one */
-
 @charset 'UTF-8';
 
 /* 1. Vendors */
@@ -11,8 +9,21 @@
 /* 3. Base stuff */
 @import 'base/*.css';
 
-/* 4. Layout-related sections */
-@import 'layout/*.css';
-
-/* 5. Components */
-@import 'components/*.css';
+/* 4. Components */
+/* atoms */
+@import '../js/components/atoms/buttons/css/*.css';
+@import '../js/components/atoms/NaviItem/css/*.css';
+/* molecules */
+@import '../js/components/molecules/ContactPerson/css/*.css';
+@import '../js/components/molecules/PageLogo/css/*.css';
+@import '../js/components/molecules/PageNaviList/css/*.css';
+@import '../js/components/molecules/UserInfo/css/*.css';
+/* organisms */
+@import '../js/components/organisms/PageHeader/css/*.css';
+@import '../js/components/organisms/PageNavi/css/*.css';
+@import '../js/components/organisms/PageMain/css/*.css';
+@import '../js/components/organisms/PageControls/css/*.css';
+@import '../js/components/organisms/PageFooter/css/*.css';
+@import '../js/components/organisms/UserPanel/css/*.css';
+/* pages */
+@import '../js/components/pages/home/css/*.css';

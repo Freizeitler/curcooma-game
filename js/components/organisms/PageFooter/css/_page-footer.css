@@ -1,0 +1,12 @@
+/*This file contains all styles related to the footer of the site/application.*/
+.footer {
+	width: 100%;
+	height: $height-footer;
+	background-color: #000;   
+  order: 0;  
+  flex: 0 1 auto;
+  align-self: auto;
+  font-size: 0.8em;
+  text-align: right;
+  padding: 0 $gutter;
+}
