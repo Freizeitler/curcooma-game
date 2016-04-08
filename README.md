@@ -1,5 +1,15 @@
+[Curcooma Logo](https://github.com/Freizeitler/curcooma-game/blob/master/img/logo.svg)
+
 # Curcooma! 
 
-Build with:
-[![Dependency Status][dep-status-img]][dep-status-link] [![devDependency Status][dev-dep-status-img]][dev-dep-status-link] [![Build Status][ci-img]][ci] [![Join the chat at https://gitter.im/mxstbr/react-boilerplate](https://badges.gitter.im/mxstbr/react-boilerplate.svg)](https://gitter.im/mxstbr/react-boilerplate?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+The restaurant manager.
+
+A React P(l)ayground based on:
+
+[dep-status-img]: https://david-dm.org/mxstbr/react-boilerplate.svg
+[dep-status-link]: https://david-dm.org/mxstbr/react-boilerplate
+[dev-dep-status-img]: https://david-dm.org/mxstbr/react-boilerplate/dev-status.svg
+[dev-dep-status-link]: https://david-dm.org/mxstbr/react-boilerplate#info=devDependencies
+[ci-img]: https://travis-ci.org/mxstbr/react-boilerplate.svg?branch=master
+[ci]: https://travis-ci.org/mxstbr/react-boilerplate
 
