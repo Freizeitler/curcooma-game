@@ -1,0 +1,11 @@
+
+/*This file contains all styles related to the main of the site/application.*/
+.main {
+	position: relative;
+	width: 100%;
+	overflow-x: hidden;
+	overflow-y: auto;
+	order: 0;
+  flex: 0 1 100%;
+  align-self: stretch;
+}

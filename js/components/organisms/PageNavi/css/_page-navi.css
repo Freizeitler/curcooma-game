@@ -1,0 +1,12 @@
+/*This file contains all styles related to the main of the site/application.*/
+.navi {
+	position: relative;
+	width: 100%;
+	background-color: $color-curcooma-800;
+	overflow-x: hidden;
+	overflow-y: auto;
+	order: 0;
+  flex: 0 1 auto;
+  align-self: stretch;
+  overflow: hidden;
+}
