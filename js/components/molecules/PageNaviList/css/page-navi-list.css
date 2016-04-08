@@ -1,0 +1,12 @@
+.page-navi-list {
+	display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: stretch;
+  align-items: center;
+  width: 100%;
+  list-style: none;
+  margin: 0;
+  padding: $gutter;
+}

@@ -1,0 +1,13 @@
+.navi-item {
+	display: inline-block;
+	width: 140px;
+	order: 0;
+  flex: 0 1 auto;
+  align-self: auto;
+  text-align: center;
+}
+
+.navi-item a {
+	color: $dark-text-primary;
+	font-size: 1em;
+}

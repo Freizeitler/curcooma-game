@@ -8,15 +8,22 @@
 
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import Logo from '../../img/logo.png';
+import PageHeader from './organisms/PageHeader/PageHeader.react';
+import PageNavi from './organisms/PageNavi/PageNavi.react';
+import UserPanel from './organisms/UserPanel/UserPanel.react';
+import PageMain from './organisms/PageMain/PageMain.react';
+import PageFooter from './organisms/PageFooter/PageFooter.react';
 
 class App extends Component {
   render() {
-    return (
-      <div className="wrapper">
-        <img className="logo" src={Logo} />
-        { this.props.children }
-      </div>
+    return (   
+    <div className="page-wrapper">     
+      <PageHeader />
+      <PageNavi />
+      <UserPanel />
+      <PageMain content={this.props.children} />
+      <PageFooter />
+    </div>
     );
   }
 }

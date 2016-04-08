@@ -1,0 +1,16 @@
+.contact-person {
+	position: absolute;
+	left: 0;
+	top: -160px;
+	border-radius: 50px;
+	width: 140px;
+  margin: 0;
+  width: 120px;
+  background: $color-light-blue-50;
+  overflow: hidden; 
+  box-sizing: border-box;
+}
+.contact-person	img {
+	max-width: 100%;
+	height: auto;
+}

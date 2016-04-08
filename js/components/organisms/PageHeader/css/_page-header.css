@@ -1,0 +1,11 @@
+/*This file contains all styles related to the header of the site/application.*/
+.header {
+	width: 100%;
+	height: $height-header;
+	background-color: $color-curcooma;
+  order: 0;
+  flex: 0 1 auto;
+  align-self: auto;
+  position: relative;
+  z-index: 1;
+}

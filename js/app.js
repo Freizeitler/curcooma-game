@@ -34,7 +34,7 @@ import FontFaceObserver from 'fontfaceobserver';
 import createHistory from 'history/lib/createBrowserHistory';
 
 // Observer loading of Open Sans (to remove open sans, remove the <link> tag in the index.html file and this observer)
-const openSansObserver = new FontFaceObserver('Open Sans', {});
+const openSansObserver = new FontFaceObserver('Montserrat', {});
 
 // When Open Sans is loaded, add the js-open-sans-loaded class to the body
 openSansObserver.check().then(() => {
@@ -42,12 +42,6 @@ openSansObserver.check().then(() => {
 }, () => {
   document.body.classList.remove('js-open-sans-loaded');
 });
-
-// Import the pages
-import HomePage from './components/pages/HomePage.react';
-import ReadmePage from './components/pages/ReadmePage.react';
-import NotFoundPage from './components/pages/NotFound.react';
-import App from './components/App.react';
 
 // Import the CSS file, which HtmlWebpackPlugin transfers to the build folder
 import '../css/main.css';
@@ -66,6 +60,17 @@ if (module.hot) {
   });
 }
 
+// Import the pages
+import HomePage from './components/pages/HomePage/HomePage.react';
+import InfoPage from './components/pages/InfoPage/InfoPage.react';
+import NotFoundPage from './components/pages/NotFoundPage/NotFoundPage.react';
+import DashboardPage from './components/pages/DashboardPage/DashboardPage.react';
+import MarketPage from './components/pages/MarketPage/MarketPage.react';
+import StaffingPage from './components/pages/StaffingPage/StaffingPage.react';
+import RestaurantPage from './components/pages/RestaurantPage/RestaurantPage.react';
+import PublicityPage from './components/pages/PublicityPage/PublicityPage.react';
+import App from './components/App.react';
+
 // Mostly boilerplate, except for the Routes. These are the pages you can go to,
 // which are all wrapped in the App component, which contains the navigation etc
 ReactDOM.render(
@@ -73,7 +78,12 @@ ReactDOM.render(
     <Router history={createHistory()}>
       <Route component={App}>
         <Route path="/" component={HomePage} />
-        <Route path="/readme" component={ReadmePage} />
+        <Route path="/info" component={InfoPage} />
+        <Route path="/restaurant" component={RestaurantPage} />
+        <Route path="/staffing" component={StaffingPage} />
+        <Route path="/market" component={MarketPage} />
+        <Route path="/publicity" component={PublicityPage} />
+        <Route path="/dashboard" component={DashboardPage} />
         <Route path="*" component={NotFoundPage} />
       </Route>
     </Router>

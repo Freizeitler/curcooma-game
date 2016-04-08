@@ -1,0 +1,21 @@
+.user-panel {
+	position: absolute;
+	top: $gutter;
+	right: 15px;
+	z-index: 10;
+	margin-top: 19px;
+  border-radius: 50px;
+  padding: 5px 110px 5px 30px;
+	background-color: $color-curcooma-800;
+}
+.user-meta {
+	margin: 0;
+	text-align: right;
+	color: $dark-text-primary;
+}
+.user-meta dd {
+	margin: 0;
+}
+.user-meta dt {
+	font-size: 0.7em;
+}
